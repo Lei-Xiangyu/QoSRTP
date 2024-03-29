@@ -1,0 +1,10 @@
+set(QOSRTP_FILES_INCLUDE 
+	${CMAKE_CURRENT_SOURCE_DIR}/result.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/data_buffer.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/rtp_packet.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp_session.h
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/log.h
+	${CMAKE_CURRENT_SOURCE_DIR}/define.h
+	${CMAKE_CURRENT_SOURCE_DIR}/forward_error_correction.h
+	PARENT_SCOPE)

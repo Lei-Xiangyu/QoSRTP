@@ -1,0 +1,19 @@
+set(QOSRTP_FILES_UTILS 
+	${CMAKE_CURRENT_SOURCE_DIR}/result_impl.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/result_impl.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/result.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/data_buffer_impl.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/data_buffer_impl.cc
+	${CMAKE_CURRENT_SOURCE_DIR}/data_buffer.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/byte_io.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/ntp_time.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/ntp_time.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/time_utils.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/thread.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/thread.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/log_default.h 	
+	${CMAKE_CURRENT_SOURCE_DIR}/log_default.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/log.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/seq_comparison.h
+	PARENT_SCOPE)

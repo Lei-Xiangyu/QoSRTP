@@ -1,0 +1,9 @@
+set(QOSRTP_FILES_SESSION 
+	${CMAKE_CURRENT_SOURCE_DIR}/media_session.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/media_session.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp_session_impl.h 
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp_session_impl.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/qosrtp_session.cc 
+	${CMAKE_CURRENT_SOURCE_DIR}/session_states.h
+	${CMAKE_CURRENT_SOURCE_DIR}/session_states.cc
+	PARENT_SCOPE)
